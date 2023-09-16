@@ -45,5 +45,10 @@ employee_data = {
   }
 }
 
-#Look for the employees with the age of 28 and 30
+#Print Jane and David's age by using index
+jane_age = employee_data["Engineering Department"]["employee2"]["age"]
+david_age = employee_data["Marketing Department"]["employee3"]["age"]
 
+
+puts "Jane's age: #{jane_age}"
+puts "David's age: #{david_age}"
